@@ -1,0 +1,311 @@
+
+		.btn-tw {
+			color: #fff;
+			background-color: #55acee;
+		}
+		
+		.btn-tw:hover {
+			background-color: #59b5fa;
+		}
+		
+		#signup-btn {
+			background-color: #d34747;
+			border: 0;
+			border-radius: 0;
+			height: 2.5em;
+		}
+		
+		.social-buttons {
+			margin-right: 5px;
+		}
+		
+		@media(max-width: 768px) {
+			#login-dp {
+				background-color: inherit;
+				color: #fff;
+			}
+		}
+		
+		#login-dp .bottom {
+			background-color: inherit;
+			border-top: 0 none;
+		}
+
+.header {
+	background-image: linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0,0.0)), url(../image/image1.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh; /* Full viewport height for banner only */
+	min-height: 500px; /* Minimum height to ensure image shows properly */
+	width: 100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+/* Services section - remove background */
+#services {
+	background: none;
+	background-color: #f8f9fa; /* Light background for services */
+	padding: 60px 0;
+}
+
+/* Alternative: If you want to separate banner from services completely */
+.banner-section {
+	background-image: linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0,0.0)), url(../image/image1.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	min-height: 500px;
+	width: 100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.header h1{
+	color: white; /* Changed to white */
+	text-align: center;
+	font-size: 70px;
+	margin-top: 200px;
+	padding-top: 100px; /* Added padding instead of just margin */
+}
+.header h3{
+	text-align: center;
+	color: #fff;
+	margin-left: 15px;
+}
+.header span{
+	font-size: 20px;
+	position: relative;
+	top: -10px;
+}
+.flex-container {
+	display: flex !important;
+	border: 1px solid transparent !important; /* Fixed spacing */
+	height: 100px;
+	justify-content: center;
+}
+.btn-grp{
+	text-align: center;
+	justify-content: center;
+	align-self: center;
+}
+.flex-1{
+	margin-right: 5px;
+	border-radius: 0;
+	border: 0;
+	background-color: #d34747;
+}
+.flex-2{
+	margin-left: 5px;
+	border: 0;
+	border-radius: 0;
+	background-color: #36a73a;
+}
+
+
+/* Login Dropdown Styling */
+#login-dp {
+    min-width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    right: 0;
+    left: auto;
+    margin-top: 5px;
+}
+
+#login-dp:before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    right: 20px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #fff;
+}
+
+#login-dp .form-group {
+    margin-bottom: 15px;
+}
+
+#login-dp .form-control {
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 10px 12px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+
+#login-dp .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+    outline: none;
+}
+
+#login-dp .social-buttons {
+    margin-bottom: 15px;
+    display: flex;
+    gap: 8px;
+}
+
+#login-dp .btn-fb {
+    background-color: #3b5998;
+    border: 1px solid #3b5998;
+    color: white;
+    flex: 1;
+    padding: 8px 12px;
+    font-size: 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+#login-dp .btn-fb:hover {
+    background-color: #2d4373;
+    border-color: #2d4373;
+    color: white;
+    text-decoration: none;
+}
+
+#login-dp .btn-tw {
+    background-color: #1da1f2;
+    border: 1px solid #1da1f2;
+    color: white;
+    flex: 1;
+    padding: 8px 12px;
+    font-size: 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+#login-dp .btn-tw:hover {
+    background-color: #0d8bd9;
+    border-color: #0d8bd9;
+    color: white;
+    text-decoration: none;
+}
+
+#login-dp .btn-fb i,
+#login-dp .btn-tw i {
+    margin-right: 5px;
+}
+
+#login-dp #signup-btn {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 4px;
+    padding: 10px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+#login-dp #signup-btn:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+#login-dp .help-block {
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+#login-dp .help-block a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+#login-dp .help-block a:hover {
+    text-decoration: underline;
+}
+
+#login-dp .checkbox {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#login-dp .checkbox label {
+    font-size: 13px;
+    color: #666;
+}
+
+#login-dp .bottom {
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+    margin-top: 15px;
+    font-size: 13px;
+    color: #666;
+}
+
+#login-dp .bottom a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#login-dp .bottom a:hover {
+    text-decoration: underline;
+}
+
+/* Text styling for "Login via" and "or" */
+#login-dp .col-md-12 {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Divider text styling */
+#login-dp > li > div > div > div:nth-child(2) {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 13px;
+    color: #666;
+    position: relative;
+}
+
+#login-dp > li > div > div > div:nth-child(2):before,
+#login-dp > li > div > div > div:nth-child(2):after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 45%;
+    height: 1px;
+    background-color: #eee;
+}
+
+#login-dp > li > div > div > div:nth-child(2):before {
+    left: 0;
+}
+
+#login-dp > li > div > div > div:nth-child(2):after {
+    right: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #login-dp {
+        min-width: 280px;
+        padding: 15px;
+    }
+    
+    #login-dp .social-buttons {
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    #login-dp .btn-fb,
+    #login-dp .btn-tw {
+        width: 100%;
+        flex: none;
+    }
+}
