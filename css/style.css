@@ -327,3 +327,96 @@
         flex: none;
     }
 }
+
+/* Sales section css starts */
+.sales {
+    padding: 150px 50px 60px 80px;
+    min-height: 600px;
+    margin-top: 150px;
+    color: #fff;
+    background-color: #222220;
+}
+
+.sales .container {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sales #left-side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.sales #left-side img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    min-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.sales #right-side {
+    flex: 1;
+    padding-top: 0;
+    margin-top: -100px;
+}
+
+.sales #right-side h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 0;
+    line-height: 1.2;
+}
+
+.sales #right-side p {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+    .sales {
+        padding: 50px 30px;
+        min-height: auto;
+        margin-top: 50px;
+    }
+    
+    .sales .container {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+    
+    .sales #left-side {
+        order: 2;
+    }
+    
+    .sales #right-side {
+        order: 1;
+    }
+    
+    .sales #left-side img {
+        max-width: 100%;
+        min-height: 200px;
+    }
+    
+    .sales #right-side h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    
+    .sales #right-side p {
+        font-size: 16px;
+        text-align: left;
+    }
+}
