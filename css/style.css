@@ -56,6 +56,7 @@
     padding: 25px 20px;
     border-radius: 50px;
     background-color: #d34747;
+     transition: transform 0.3s ease;
     color: white;
 }
 .services{
@@ -332,7 +333,7 @@
 .sales {
     padding: 150px 50px 60px 80px;
     min-height: 600px;
-    margin-top: 150px;
+    margin-top: 10px;
     color: #fff;
     background-color: #222220;
 }
@@ -420,3 +421,101 @@
         text-align: left;
     }
 }
+
+
+/* Pricing Section CSS */
+
+  .pricing {
+            padding: 50px 80px;
+            background-color: #bf5353;
+            text-align: center;
+        }
+        
+        .pricing h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #f8f9fa;
+            font-weight: bold;
+        }
+        
+        .pricing > .container > .row > p {
+            text-align: center;
+            margin-bottom: 50px;
+            color: #f8f9fa;
+            font-size: 18px;
+        }
+        
+        .packages {
+            background: white;
+            padding: 40px 30px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            height: 100%;
+            margin-bottom: 30px;
+        }
+        
+        .packages:hover {
+            transform: translateY(-5px);
+        }
+        
+        .packages h4 {
+            color: #666;
+            margin-bottom: -80px;
+            font-weight: bold;
+        }
+        
+        .packages h1 {
+            color: #28a745;
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 5px;
+            margin-top: 0;
+        }
+        
+        .packages b {
+            color: #666;
+            font-size: 16px;
+        }
+        
+        .packages p {
+            margin: 20px 0;
+            color: #777;
+            text-align: center;
+        }
+        
+        .packages hr {
+            margin: 30px 0;
+            border-color: #eee;
+        }
+        
+        .packages ul {
+            list-style: none;
+            padding: 0;
+            margin: 30px 0;
+        }
+        
+        .packages li {
+            padding: 10px 0;
+            color: #555;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        
+        .packages li:last-child {
+            border-bottom: none;
+        }
+        
+        .packages .btn {
+            margin-top: 20px;
+            padding: 12px 30px;
+            font-weight: bold;
+            border-radius: 25px;
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .packages {
+                margin-bottom: 30px;
+            }
+        }
