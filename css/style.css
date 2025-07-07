@@ -519,3 +519,89 @@
                 margin-bottom: 30px;
             }
         }
+
+  /* Mission section CSS starts here */
+        .mission {
+            padding: 80px;
+            min-height: 300px;
+            padding-top: 80px;
+            background-color: #f8f9fa;
+        }
+        
+        .mission #left-side {
+            margin-bottom: 50px;
+            margin-top: -280px;
+        }
+        
+        .mission #left-side h1 {
+            font-family: "Montserrat", sans-serif;
+            font-size: 30px;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        
+        .mission #left-side p {
+            margin-top: 20px;
+            font-size: 17px;
+            text-align: justify;
+            line-height: 30px;
+            color: #555;
+        }
+        
+        .mission #right-side {
+            display: flex;
+            align-items: flex-start;
+        }
+        
+        .mission #right-side img {
+            min-height: 300px;
+            width: 450px;
+            margin-left: 100px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        @media(max-width: 834px) {
+            .mission {
+                padding: 80px 20px;
+                min-height: 600px;
+                margin-top: 20px;
+                padding-top: 60px;
+            }
+            
+            .mission #right-side img {
+                margin-top: 60px;
+                height: 100%;
+                width: 100%;
+                margin-left: 0;
+                margin-right: auto;
+            }
+            
+            .mission #left-side h1 {
+                font-size: 24px;
+            }
+            
+            .mission #left-side p {
+                font-size: 16px;
+                line-height: 28px;
+            }
+        }
+        
+        @media(max-width: 576px) {
+            .mission {
+                padding: 40px 15px;
+                padding-top: 40px;
+            }
+            
+            .mission #left-side h1 {
+                font-size: 20px;
+            }
+            
+            .mission #left-side p {
+                font-size: 15px;
+                line-height: 26px;
+            }
+        }
+        /* Mission section ends here */
+
