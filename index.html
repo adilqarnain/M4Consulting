@@ -351,7 +351,7 @@
     </div>
 </div>
 
-
+ <form action="https://formspree.io/f/mkgzngje" method="POST"> 
  <div class="contacts" id="contacts">
         <div class="container">
             <h2>Contact</h2>
@@ -387,8 +387,8 @@
         </div>
     </div>
 
-  
 
+</form>
 
 <!-- Footer Section -->
 <footer class="footer">
@@ -433,6 +433,7 @@
             </div>
         </div>
         
+
         <div class="social-media">
             <h4>Connect With Us</h4>
             <div class="social-icons">
@@ -475,61 +476,7 @@
     </div>
 </footer>
 
-  <script>
-        document.getElementById('contact-form').addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            const form = this;
-            const submitBtn = form.querySelector('button[type="submit"]');
-            const messageContainer = document.getElementById('message-container');
-            
-            // Disable submit button
-            submitBtn.disabled = true;
-            submitBtn.textContent = 'SENDING...';
-            
-            // Create FormData object
-            const formData = new FormData(form);
-            
-            // Send AJAX request
-            fetch('contact-handler.php', {
-                method: 'POST',
-                body: formData
-            })
-            .then(response => response.json())
-            .then(data => {
-                // Show message
-                messageContainer.innerHTML = `
-                    <div class="alert alert-${data.status === 'success' ? 'success' : 'error'}">
-                        ${data.message}
-                    </div>
-                `;
-                
-                // Reset form if successful
-                if (data.status === 'success') {
-                    form.reset();
-                }
-                
-                // Re-enable submit button
-                submitBtn.disabled = false;
-                submitBtn.textContent = 'SUBMIT YOUR MESSAGE';
-                
-                // Scroll to message
-                messageContainer.scrollIntoView({ behavior: 'smooth' });
-            })
-            .catch(error => {
-                console.error('Error:', error);
-                messageContainer.innerHTML = `
-                    <div class="alert alert-error">
-                        An error occurred. Please try again later.
-                    </div>
-                `;
-                
-                // Re-enable submit button
-                submitBtn.disabled = false;
-                submitBtn.textContent = 'SUBMIT YOUR MESSAGE';
-            });
-        });
-    </script>
+
 	
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
