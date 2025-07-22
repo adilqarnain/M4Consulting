@@ -4,11 +4,18 @@
 
 	<!--Required meta tag -->
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>M4Consulting</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>COGNITIVE IT ZONE</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
 	<link rel="stylesheet" type="text/css" href="fontawesome-free-6.7.2-web/css/all.css">
+
+    <!-- Add these to your <head> section -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 	<!-- Option 1: Font Awesome 6 (latest) -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
@@ -27,7 +34,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">M4Consulting</a>
+				<a class="navbar-brand" href="#">COGNITIVE IT ZONE</a>
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-right">
@@ -91,18 +98,17 @@
 
 			<div class="col-lg-12 col-md-12" >
 
-				<h1> M4Consulting <span> <sup>&reg;</sup></span> </h1>
-				<h3> Data-Powered Growth, Sales Unleashed</h3>
+
+
+				<h1 class="wow animate__animated animate__bounceInLeft" > COGNITIVE IT ZONE <span> <sup>&reg;</sup></span> </h1>
+				<h3 class="wow animate__animated animate__bounceInRight"> Where Intelligence meets Invoation.</h3>
 
 				<div class="flex-containter">
-
 				<div class="btn-grp">
+					<button id="aa" class="flex-1 btn btn-lg btn-primary wow animate__animated animate__fadeInUp">Get Started</button>
+					<button id="bb" class="flex-2 btn btn-lg btn-primary wow animate__animated animate__fadeInUp">View Details</button>
 
-					<button id="aa" class="flex-1 btn btn-lg btn-primary">Get Started</button>
 
-					<button id="bb" class="flex-2 btn btn-lg btn-primary">View Details</button>
-
-					
 				</div>
 			</div>
 
@@ -112,31 +118,33 @@
 <!-- Services section starts here -->
 
 <div id="services" class="services">
-	<h2>Services</h2>
-	<p> Transform your business with our comprehensive suite of digital solutions. We specialize in delivering cutting-edge technology services that drive growth, enhance efficiency, and position your business for success in today's competitive digital landscape. From custom web development to enterprise-grade business management systems, our expert team provides end-to-end solutions tailored to your unique requirements. </p>
+    <div class="container">
+	<h2 class="wow animate__animated animate__fadeInUp">Services</h2>
+	<p class="wow animate__animated animate__fadeInUp"> Transform your business with our comprehensive suite of digital solutions. We specialize in delivering cutting-edge technology services that drive growth, enhance efficiency, and position your business for success in today's competitive digital landscape. From custom web development to enterprise-grade business management systems, our expert team provides end-to-end solutions tailored to your unique requirements. </p>
 	<div class="row">
-		<div class="col-lg-3 col-md-3">
+		<div class="col-lg-3 col-md-3 wow animate__animated animate__fadeInLeft">
 		<i class="fas fa-desktop"></i>
 		<h4> Web Development</h4>
 		<p>Harness the power of the world's most popular content management system with our expert WordPress development services. We create stunning, responsive websites that not only look exceptional but perform flawlessly across all devices and platforms.</p>
 	</div>	
-	<div class="col-lg-3 col-md-3">
+	<div class="col-lg-3 col-md-3 wow animate__animated animate__fadeInLeft">
 		<i class="fas fa-mobile"></i>
 		<h4> Mobile Development</h4>
 		<p>Reach your audience wherever they are with our React Native mobile development services. We build high-quality, cross-platform mobile applications that provide native-like performance while maximizing your development investment across iOS and Android platforms.</p>
 	</div>	
-	<div class="col-lg-3 col-md-3">
+	<div class="col-lg-3 col-md-3 wow animate__animated animate__fadeInLeft">
 		<i class="fas fa-chart-line"></i>
 		<h4> World's #1 CRM</h4>
 		<p>Transform how you manage customer relationships with our comprehensive Salesforce CRM solutions. We help businesses streamline their sales processes, enhance customer service, and drive revenue growth through strategic Salesforce implementation and customization.</p>
 	</div>	
-	<div class="col-lg-3 col-md-3">
+	<div class="col-lg-3 col-md-3 wow animate__animated animate__fadeInLeft">
 		<i class="fas fa-university"></i>
 		<h4> Cloud ERP</h4>
 		<p>Streamline your entire business operation with our expert Odoo ERP implementation and customization services. We deploy self-hosted Odoo solutions that give you complete control over your business data while providing integrated management of all your business processes.</p>
 	</div>	
 </div>
 </div>	
+</div>
 </div>
 
 <!-- Sales Section -->
@@ -476,7 +484,10 @@
     </div>
 </footer>
 
-
+     <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 	
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
