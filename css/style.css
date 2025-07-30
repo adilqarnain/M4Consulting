@@ -48,7 +48,7 @@
 /* Services section - remove background */
 #services {
 	background: none;
-	background-color: #f8f9fa; /* Light background for services */
+	background-color: #ffff; /* Light background for services */
 	padding: 60px 0;
     text-align: center;
 }
@@ -471,7 +471,7 @@
         
         .packages h1 {
             color: #28a745;
-            font-size: 48px;
+            font-size: 30px;
             font-weight: bold;
             margin-bottom: 5px;
             margin-top: 0;
@@ -615,7 +615,7 @@
             background-color: #bf5353;
             text-align: center;
             color: #fff;
-              margin-top: 50px;
+              margin-top: 0px;
 
         }
 
@@ -643,7 +643,7 @@
     background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
     color: #ecf0f1;
     padding: 60px 0 20px;
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 .footer h4 {
@@ -896,8 +896,8 @@ h2,h4
         }
 
         .contacts .input-group-addon {
-            background-color: #a04545;
-            border: 1px solid #a04545;
+            background-color: #BF5252;
+            border: 1px solid #BF5252;
             color: #fff;
             padding: 12px 15px;
             display: flex;
@@ -907,6 +907,8 @@ h2,h4
             border-radius: 0;
             font-size: 1.1rem;
         }
+
+        
 
         .contacts .form-control,
         .contacts .form-control1 {
