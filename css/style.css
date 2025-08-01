@@ -430,7 +430,7 @@
 
   .pricing {
             padding: 50px 80px;
-            background-color: #bf5353;
+            background-color: #3898FD;
             text-align: center;
         }
         
@@ -612,7 +612,7 @@
 
         .clients{
             padding: 50px 0px 80px;
-            background-color: #bf5353;
+            background-color: #3898FD;
             text-align: center;
             color: #fff;
               margin-top: 0px;
@@ -836,7 +836,7 @@ h2,h4
         .contacts {
             padding: 50px 0px 80px;
             text-align: center;
-            background-color: #bf5353;
+            background-color: #3898FD;
         }
 
         .contacts .container {
@@ -896,8 +896,8 @@ h2,h4
         }
 
         .contacts .input-group-addon {
-            background-color: #BF5252;
-            border: 1px solid #BF5252;
+            background-color: #3898FD;
+            border: 1px solid #3898FD;
             color: #fff;
             padding: 12px 15px;
             display: flex;
