@@ -1,173 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-	<!--Required meta tag -->
-	<meta charset="utf-8">
+    <!--Required meta tag -->
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>M4 Consulting</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>M4 Consulting</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
-    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
-	<link rel="stylesheet" type="text/css" href="fontawesome-free-6.7.2-web/css/all.css">
+    <link rel="stylesheet" type="text/css" href="fontawesome-free-6.7.2-web/css/all.css">
 
     <!-- Add these to your <head> section -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-	<!-- Option 1: Font Awesome 6 (latest) -->
+    <!-- Font Awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-<!-- Option 2: Font Awesome 5 -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
-<!-- Option 3: Font Awesome official CDN -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.0/css/all.css">
 </head>
 <body>
-	<div id="myNavbar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#">M4 Consulting</a>
-			</div>
-			<div class="navbar-collapse collapse">
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#header">Home</a></li>
-					<li><a href="#services">Services</a></li>
-					<li><a href="#pricing">Pricing</a></li>
-					<li><a href="#mission">Mission</a></li>
-					<li><a href="#team">Teams</a></li>
-					<li><a href="#clients">Clients</a></li>
-					<li><a href="#contacts">Contacts</a></li>
+    <div id="myNavbar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">M4 Consulting</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#mission">Mission</a></li>
+                    <li><a href="#team">Teams</a></li>
+                    <li><a href="#clients">Clients</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
             
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Login <span class="caret"></span></a>
-						<ul id="login-dp" class="dropdown-menu">
-							<li>
-								<div class="row">
-									<div class="col-md-12 col-sm-12">
-										Login via
-										<div class="social-buttons">
-											<a href="#" class="btn btn-fb"><i class="fab fa-facebook-f"></i>Facebook</a>
-											<a href="#" class="btn btn-tw"><i class="fab fa-twitter"></i>Twitter</a>
-										</div>
-										or
-										<form class="form" role="form" method="post" action="login" accept-charset="utf-8" id="login-nav">
-											<div class="form-group">
-												<label class="sr-only" for="InputEmail">Email Address</label>
-												<input type="email" name="email" class="form-control" id="InputEmail" placeholder="Email address" required>
-											</div>
-											<div class="form-group">
-												<label class="sr-only" for="InputPassword">Password</label>
-												<input type="password" name="password" class="form-control" id="InputPassword" placeholder="Password" required>
-												<div class="help-block text-right"><a href="#">Forget the password?</a></div>
-											</div>
-											<div class="form-group">
-												<button type="submit" class="btn btn-primary btn-block" id="signup-btn">Sign In</button>
-											</div>
-											<div class="checkbox">
-												<label>
-													<input type="checkbox" name="checkbox">Keep me logged-in
-												</label>
-											</div>
-										</form>
-									</div>
-									<div class="bottom text-center">
-										New here? <a href="#"><b>Join Us</b></a>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	
-	<!-- Header Begins here -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login <span class="caret"></span></a>
+                        <ul id="login-dp" class="dropdown-menu">
+                            <li>
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12">
+                                        Login via
+                                        <div class="social-buttons">
+                                            <a href="#" class="btn btn-fb"><i class="fab fa-facebook-f"></i>Facebook</a>
+                                            <a href="#" class="btn btn-tw"><i class="fab fa-twitter"></i>Twitter</a>
+                                        </div>
+                                        or
+                                        <form class="form" role="form" method="post" action="login" accept-charset="utf-8" id="login-nav">
+                                            <div class="form-group">
+                                                <label class="sr-only" for="InputEmail">Email Address</label>
+                                                <input type="email" name="email" class="form-control" id="InputEmail" placeholder="Email address" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="sr-only" for="InputPassword">Password</label>
+                                                <input type="password" name="password" class="form-control" id="InputPassword" placeholder="Password" required>
+                                                <div class="help-block text-right"><a href="#">Forget the password?</a></div>
+                                            </div>
+                                            <div class="form-group">
+                                                <button type="submit" class="btn btn-primary btn-block" id="signup-btn">Sign In</button>
+                                            </div>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" name="checkbox">Keep me logged-in
+                                                </label>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="bottom text-center">
+                                        New here? <a href="#"><b>Join Us</b></a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Header Begins here -->
+    <div id="header" class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <h1 class="wow animate__animated animate__bounceInLeft">Transform Your Business with Expert Consulting Solutions<span><sup>&reg;</sup></span></h1>
+                    <h3 class="wow animate__animated animate__bounceInRight">M4 Consulting helps businesses optimize operations, increase efficiency, and achieve sustainable growth through strategic consulting services.</h3>
 
-	<div id="header" class="header">
-		<div class="container">
-			<div class="row">
+                    <div class="btn-grp">
+                        <a href="#pricing" id="aa" class="flex-1 btn btn-lg btn-primary wow animate__animated animate__fadeInUp">Explore Our Services</a>
+                        <a href="https://calendly.com/m4consulting2025" target="_blank" id="bb" class="flex-2 btn btn-lg btn-primary wow animate__animated animate__fadeInUp">Get Free Consultation</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-			<div class="col-lg-12 col-md-12" >
+    <!-- Services section starts here -->
+    <div id="services" class="services">
+        <div class="container">
+            <h2 class="wow animate__animated animate__fadeInUp">Services</h2>
+            <p class="wow animate__animated animate__fadeInUp">Transform your business with our comprehensive suite of digital solutions. We specialize in delivering cutting-edge technology services that drive growth, enhance efficiency, and position your business for success in today's competitive digital landscape. From custom web development to enterprise-grade business management systems, our expert team provides end-to-end solutions tailored to your unique requirements.</p>
+            <div class="row">
+                <div class="col-lg-3 col-md-3 wow animate__animated animate__fadeInLeft">
+                    <i class="fas fa-desktop"></i>
+                    <h4>Web Development</h4>
+                    <p>Harness the power of the world's most popular content management system with our expert WordPress development services. We create stunning, responsive websites that not only look exceptional but perform flawlessly across all devices and platforms.</p>
+                </div>  
+                <div class="col-lg-3 col-md-3 wow animate__animated animate__fadeInLeft">
+                    <i class="fas fa-mobile"></i>
+                    <h4>Mobile Development</h4>
+                    <p>Reach your audience wherever they are with our React Native mobile development services. We build high-quality, cross-platform mobile applications that provide native-like performance while maximizing your development investment across iOS and Android platforms.</p>
+                </div>  
+                <div class="col-lg-3 col-md-3 wow animate__animated animate__fadeInLeft">
+                    <i class="fas fa-chart-line"></i>
+                    <h4>World's #1 CRM</h4>
+                    <p>Transform how you manage customer relationships with our comprehensive Salesforce CRM solutions. We help businesses streamline their sales processes, enhance customer service, and drive revenue growth through strategic Salesforce implementation and customization.</p>
+                </div>  
+                <div class="col-lg-3 col-md-3 wow animate__animated animate__fadeInLeft">
+                    <i class="fas fa-university"></i>
+                    <h4>Cloud ERP</h4>
+                    <p>Streamline your entire business operation with our expert Odoo ERP implementation and customization services. We deploy self-hosted Odoo solutions that give you complete control over your business data while providing integrated management of all your business processes.</p>
+                </div>  
+            </div>
+        </div>  
+    </div>
 
 
-
-				<h1 class="wow animate__animated animate__bounceInLeft" > Transform Your Business with Expert Consulting Solutions <span> <sup>&reg;</sup></span> </h1>
-				<h3 class="wow animate__animated animate__bounceInRight"> M4 Consulting helps businesses optimize operations, increase efficiency, and achieve sustainable growth through strategic consulting services.</h3>
-
-				<div class="flex-containter">
-				<div class="btn-grp">
-					
-
-                    <a href="#pricing" id="aa" class="flex-1 btn btn-lg btn-primary wow animate__animated animate__fadeInUp">Explore Our Services</a>
-                  
-
-                    <a href="https://calendly.com/m4consulting2025" target="_blank" id="bb" class="flex-2 btn btn-lg btn-primary wow animateanimated animatefadeInUp">Get Free Consultation</a>
-
-				</div>
-			</div>
-
-			</div>
-			</div>	
-
-<!-- Services section starts here -->
-
-<div id="services" class="services">
-    <div class="container">
-	<h2 class="wow animate__animated animate__fadeInUp">Services</h2>
-	<p class="wow animate__animated animate__fadeInUp"> Transform your business with our comprehensive suite of digital solutions. We specialize in delivering cutting-edge technology services that drive growth, enhance efficiency, and position your business for success in today's competitive digital landscape. From custom web development to enterprise-grade business management systems, our expert team provides end-to-end solutions tailored to your unique requirements. </p>
-	<div class="row">
-		<div class="col-lg-3 col-md-3 wow animate__animated animate__fadeInLeft">
-		<i class="fas fa-desktop"></i>
-		<h4> Web Development</h4>
-		<p>Harness the power of the world's most popular content management system with our expert WordPress development services. We create stunning, responsive websites that not only look exceptional but perform flawlessly across all devices and platforms.</p>
-	</div>	
-	<div class="col-lg-3 col-md-3 wow animate__animated animate__fadeInLeft">
-		<i class="fas fa-mobile"></i>
-		<h4> Mobile Development</h4>
-		<p>Reach your audience wherever they are with our React Native mobile development services. We build high-quality, cross-platform mobile applications that provide native-like performance while maximizing your development investment across iOS and Android platforms.</p>
-	</div>	
-	<div class="col-lg-3 col-md-3 wow animate__animated animate__fadeInLeft">
-		<i class="fas fa-chart-line"></i>
-		<h4> World's #1 CRM</h4>
-		<p>Transform how you manage customer relationships with our comprehensive Salesforce CRM solutions. We help businesses streamline their sales processes, enhance customer service, and drive revenue growth through strategic Salesforce implementation and customization.</p>
-	</div>	
-	<div class="col-lg-3 col-md-3 wow animate__animated animate__fadeInLeft">
-		<i class="fas fa-university"></i>
-		<h4> Cloud ERP</h4>
-		<p>Streamline your entire business operation with our expert Odoo ERP implementation and customization services. We deploy self-hosted Odoo solutions that give you complete control over your business data while providing integrated management of all your business processes.</p>
-	</div>	
-</div>
-</div>	
-</div>
-</div>
-
-<!-- Sales Section -->
-
-	<div id="sales" class="sales">
-		<div class="container">
-				<div class="col-lg-6 col-md-6" id="left-side">
-					<img src="image/sales6.jpg" alt="Sales Image" class="img-responsive center-block">
-				</div>
-				<div class="col-lg-6 col-md-6" id="right-side">
-					<h1>Achieve Up to 60% Sales Growth</h1>
-					<p>Strategic branding and marketing tailored to your needs.</p>
-					<p>Experience seamless growth with our development and consulting expertise</p>
-					<p>Trust our specialists to optimize your web, mobile, CRM, and ERP systems for lasting impact.</p>
-				</div>
-		
-		</div>
-	</div>
-
-	   <!-- Pricing Section -->
+    <!-- Pricing Section -->
     <div id="pricing" class="pricing">
         <div class="container">
             <div class="row">
@@ -180,7 +142,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="packages" id="flip1">
                         <h4>Web Development</h4>
-                        <h1>$10,000+</h1>
+                        <h1 class="price">$10,000+</h1>
                         <b>Total Digital Presence</b>
                         <p>Your all-in-one solution for stunning, high-performing online presence.</p>
                         <hr>
@@ -198,7 +160,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="packages" id="flip2">
                         <h4>Mobile Development</h4>
-                        <h1>$20,000+</h1>
+                        <h1 class="price">$20,000+</h1>
                         <b>All-in-One Mobile Mastery</b>
                         <p>The ultimate package for a powerful, cross-platform mobile experience.</p>
                         <hr>
@@ -210,14 +172,13 @@
                             <li>Basic & Advanced Functionality</li>
                             <li>06 Months Support</li>
                         </ul>
-                      
                         <a href="https://calendly.com/m4consulting2025" target="_blank" class="btn btn-success">Book a Free Call</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="packages" id="flip3">
                         <h4>Salesforce CRM Consulting</h4>
-                        <h1>$15,000</h1>
+                        <h1 class="price">$15,000</h1>
                         <b>End-to-End CRM Optimization</b>
                         <p>A comprehensive package to fully optimize your CRM system.</p>
                         <hr>
@@ -229,13 +190,13 @@
                             <li>Data Migration & Integration</li>
                             <li>06 Months Support</li>
                         </ul>
-                     <a href="https://calendly.com/m4consulting2025" target="_blank" class="btn btn-success">Book a Free Call</a>
+                        <a href="https://calendly.com/m4consulting2025" target="_blank" class="btn btn-success">Book a Free Call</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="packages" id="flip4">
                         <h4>Odoo Cloud ERP Consulting</h4>
-                        <h1>$12,000</h1>
+                        <h1 class="price">$12,000</h1>
                         <b>Complete Business Integration</b>
                         <p>Your end-to-end solution for seamless business process integration.</p>
                         <hr>
@@ -247,7 +208,7 @@
                             <li>Advanced Customization</li>
                             <li>06 Months Support</li>
                         </ul>
-                           <a href="https://calendly.com/m4consulting2025" target="_blank" class="btn btn-success">Book a Free Call</a>
+                        <a href="https://calendly.com/m4consulting2025" target="_blank" class="btn btn-success">Book a Free Call</a>
                     </div>
                 </div>
             </div>
@@ -255,239 +216,230 @@
     </div>
     <!-- End of Pricing Section -->
 
-   
-
-
-   <!-- Mission section starts here -->
+    <!-- Mission section starts here -->
     <div id="mission" class="mission">
         <div class="container">
-            <div class="col-lg-6 col-md-6" id="left-side">
-                <h1>Why are we different?</h1>
-                <p>Our mission is to deliver the best sales results and to grow your brand in the digital realm. We use the most updated tech for web services and state-of-the-art analytical tools for analytics.</p>
-                <p>We have 20+ years of experience in delivering quality results with some huge corporations. Join us today and be part of it!</p>
-            </div>
-             <div class="col-lg-6 col-md-6" id="right-side">
-                <img src="image/mission.jpg">
-            </div>
-        </div>
-    </div>
-
- <!-- Mission section ends -->
-
- <!-- clients section begins here -->
-<div id="clients" class="clients">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 text-center mb-4">
-                <h2>Trusted by</h2>
-                <p>Leading companies worldwide trust our solutions</p>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
-                <div class="client-logo">
-                    <img src="image/clients_images/c1.png" alt="Client Company 1" loading="lazy">
+            <div class="row">
+                <div class="col-lg-6 col-md-6" id="left-side">
+                    <h1>Why are we different?</h1>
+                    <p>Our mission is to deliver the best sales results and to grow your brand in the digital realm. We use the most updated tech for web services and state-of-the-art analytical tools for analytics.</p>
+                    <p>We have 20+ years of experience in delivering quality results with some huge corporations. Join us today and be part of it!</p>
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
-                <div class="client-logo">
-                    <img src="image/clients_images/c1.png" alt="Client Company 2" loading="lazy">
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
-                <div class="client-logo">
-                    <img src="image/clients_images/c1.png" alt="Client Company 3" loading="lazy">
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 col-6">
-                <div class="client-logo">
-                    <img src="image/clients_images/c1.png" alt="Client Company 4" loading="lazy">
+                <div class="col-lg-6 col-md-6" id="right-side">
+                    <img src="image/mission.jpg" alt="Mission Image">
                 </div>
             </div>
         </div>
     </div>
-</div>
+    <!-- Mission section ends -->
 
-
-<!-- team section begins here -->
-<div class="team" id="team">
-    <div class="container">
-        <div class="row">
-            <h2>Meet our team </h2>
-            <p>Trusted by leading companies worldwide, our team delivers expert IT consulting services in web development, mobile solutions, Salesforce CRM, and Odoo Cloud ERP</p>
-
-            <div class="col-lg-3 col-md-3">
-                <img src="image/team_images/team1.jpeg" class="img-circle">
-                <h4>Mr. ABC</h4>
-                <b>CEO</b>
-                <p>Oversees strategic direction and leads our team to deliver top-tier IT consulting solutions worldwide.</p>
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+    <!-- clients section begins here -->
+    <div id="clients" class="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-4">
+                    <h2>Trusted by</h2>
+                    <p>Leading companies worldwide trust our solutions</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                    <div class="client-logo">
+                        <img src="image/clients_images/c1.png" alt="Client Company 1" loading="lazy">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                    <div class="client-logo">
+                        <img src="image/clients_images/c1.png" alt="Client Company 2" loading="lazy">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                    <div class="client-logo">
+                        <img src="image/clients_images/c1.png" alt="Client Company 3" loading="lazy">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                    <div class="client-logo">
+                        <img src="image/clients_images/c1.png" alt="Client Company 4" loading="lazy">
+                    </div>
+                </div>
             </div>
-
-              <div class="col-lg-3 col-md-3">
-                  <img src="image/team_images/team1.jpeg" class="img-circle">
-                <h4>Mr.ABC</h4>
-                <b>Web Developer</b>
-                <p>Drives technological innovation and oversees the development of web, mobile, and ERP solutions</p>
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
-            </div>
-
-              <div class="col-lg-3 col-md-3">
-                <img src="image/team_images/team1.jpeg" class="img-circle">
-                <h4>Mr.ABC</h4>
-                <b>Mobile Developer</b>
-                <p>Expert in crafting cutting-edge web solutions trusted by leading companies globally</p>
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
-            </div>
-
-              <div class="col-lg-3 col-md-3">
-             <img src="image/team_images/team1.jpeg" class="img-circle">
-                <h4>Mr.ABC</h4>
-                <b>Salesforce Developer</b>
-                <p>Leads marketing strategies to promote our Salesforce CRM and Odoo Cloud ERP consulting services</p>
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
-            </div>
-
-
         </div>
     </div>
-</div>
 
- <form action="https://formspree.io/f/mkgzngje" method="POST"> 
- <div class="contacts" id="contacts">
+    <!-- team section begins here -->
+    <div class="team" id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2>Meet our team</h2>
+                    <p>Trusted by leading companies worldwide, our team delivers expert IT consulting services in web development, mobile solutions, Salesforce CRM, and Odoo Cloud ERP</p>
+                </div>
+
+                <div class="col-lg-3 col-md-3">
+                    <img src="image/team_images/team1.jpeg" class="img-circle" alt="CEO">
+                    <h4>Mr. ABC</h4>
+                    <b>CEO</b>
+                    <p>Oversees strategic direction and leads our team to deliver top-tier IT consulting solutions worldwide.</p>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                </div>
+
+                <div class="col-lg-3 col-md-3">
+                    <img src="image/team_images/team1.jpeg" class="img-circle" alt="Web Developer">
+                    <h4>Mr.ABC</h4>
+                    <b>Web Developer</b>
+                    <p>Drives technological innovation and oversees the development of web, mobile, and ERP solutions</p>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                </div>
+
+                <div class="col-lg-3 col-md-3">
+                    <img src="image/team_images/team1.jpeg" class="img-circle" alt="Mobile Developer">
+                    <h4>Mr.ABC</h4>
+                    <b>Mobile Developer</b>
+                    <p>Expert in crafting cutting-edge web solutions trusted by leading companies globally</p>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                </div>
+
+                <div class="col-lg-3 col-md-3">
+                    <img src="image/team_images/team1.jpeg" class="img-circle" alt="Salesforce Developer">
+                    <h4>Mr.ABC</h4>
+                    <b>Salesforce Developer</b>
+                    <p>Leads marketing strategies to promote our Salesforce CRM and Odoo Cloud ERP consulting services</p>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contacts" id="contacts">
         <div class="container">
             <h2>Contact</h2>
             <p>Trusted by leading companies worldwide, our team delivers expert IT consulting services in web development, mobile solutions, Salesforce CRM, and Odoo Cloud ERP</p>
             
             <div id="message-container"></div>
             
-            <form id="contact-form" action="contact-handler.php" method="POST">
-                <div class="col-lg-6 col-md-6">
-                    <div class="input-group input-group-lg">
-                        <span class="input-group-addon"><i class="fa-solid fa-user"></i></span>
-                        <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+            <form id="contact-form" action="https://formspree.io/f/mkgzngje" method="POST">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="input-group input-group-lg">
+                            <span class="input-group-addon"><i class="fa-solid fa-user"></i></span>
+                            <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                        </div>
+                        
+                        <div class="input-group input-group-lg">
+                            <span class="input-group-addon"><i class="fa-solid fa-envelope"></i></span>
+                            <input type="email" name="email" class="form-control" placeholder="Email address" required>
+                        </div>
+                        
+                        <div class="input-group input-group-lg">
+                            <span class="input-group-addon"><i class="fa-solid fa-phone"></i></span>
+                            <input type="tel" name="phone" class="form-control" placeholder="Phone">
+                        </div>
                     </div>
                     
-                    <div class="input-group input-group-lg">
-                        <span class="input-group-addon"><i class="fa-solid fa-envelope"></i></span>
-                        <input type="email" name="email" class="form-control1" placeholder="Email address" required>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="input-group">
+                            <textarea name="message" cols="80" rows="6" class="form-control" placeholder="Your message..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-lg">SUBMIT YOUR MESSAGE</button>
                     </div>
-                    
-                    <div class="input-group input-group-lg">
-                        <span class="input-group-addon"><i class="fa-solid fa-phone"></i></span>
-                        <input type="tel" name="phone" class="form-control" placeholder="Phone">
-                    </div>
-                </div>
-                
-                <div class="col-lg-6 col-md-6">
-                    <div class="input-group">
-                        <textarea name="message" cols="80" rows="6" class="form-control" placeholder="Your message..." required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-lg">SUBMIT YOUR MESSAGE</button>
                 </div>
             </form>
         </div>
     </div>
 
-
-</form>
-
-<!-- Footer Section -->
-<footer class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <h4>M4Consulting</h4>
-                <p>Data-Powered Growth, Sales Unleashed. Transform your business with our comprehensive suite of digital solutions.</p>
-                <p><i class="fas fa-map-marker-alt"></i> 123 Business Street, Tech City, TC 12345</p>
-                <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
-                <p><i class="fas fa-envelope"></i> info@m4consulting.com</p>
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <h4>M4Consulting</h4>
+                    <p>Data-Powered Growth, Sales Unleashed. Transform your business with our comprehensive suite of digital solutions.</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Business Street, Tech City, TC 12345</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@m4consulting.com</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Web Development</a></li>
+                        <li><a href="#services">Mobile Development</a></li>
+                        <li><a href="#services">Salesforce CRM</a></li>
+                        <li><a href="#services">Odoo Cloud ERP</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#mission">About Us</a></li>
+                        <li><a href="#clients">Clients</a></li>
+                        <li><a href="#contacts">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Support Ticket</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <h4>Services</h4>
-                <ul>
-                    <li><a href="#services">Web Development</a></li>
-                    <li><a href="#services">Mobile Development</a></li>
-                    <li><a href="#services">Salesforce CRM</a></li>
-                    <li><a href="#services">Odoo Cloud ERP</a></li>
-                   
-                </ul>
+            
+            <div class="social-media">
+                <h4>Connect With Us</h4>
+                <div class="social-icons">
+                    <a href="#" class="social-icon facebook" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-icon twitter" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-icon instagram" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-icon linkedin" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="social-icon youtube" aria-label="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="#" class="social-icon whatsapp" aria-label="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="#" class="social-icon telegram" aria-label="Telegram">
+                        <i class="fab fa-telegram-plane"></i>
+                    </a>
+                </div>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <h4>Quick Links</h4>
-                <ul>
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#pricing">Pricing</a></li>
-                    <li><a href="#mission">About Us</a></li>
-                    <li><a href="#clients">Clients</a></li>
-                    <li><a href="#contact" onclick="openContactForm()">Contact</a></li>
-                </ul>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <h4>Support</h4>
-                <ul>
-                    <li><a href="#">Help Center</a></li>
-                    <li><a href="#">Documentation</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms of Service</a></li>
-                    <li><a href="#">Support Ticket</a></li>
-                </ul>
-            </div>
-        </div>
-        
-
-        <div class="social-media">
-            <h4>Connect With Us</h4>
-            <div class="social-icons">
-                <a href="#" class="social-icon facebook" aria-label="Facebook">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="#" class="social-icon twitter" aria-label="Twitter">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a href="#" class="social-icon instagram" aria-label="Instagram">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="#" class="social-icon linkedin" aria-label="LinkedIn">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-                <a href="#" class="social-icon youtube" aria-label="YouTube">
-                    <i class="fab fa-youtube"></i>
-                </a>
-              
-                <a href="#" class="social-icon whatsapp" aria-label="WhatsApp">
-                    <i class="fab fa-whatsapp"></i>
-                </a>
-                <a href="#" class="social-icon telegram" aria-label="Telegram">
-                    <i class="fab fa-telegram-plane"></i>
-                </a>
-               
-               
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 M4Consulting. All rights reserved. | Designed with ❤️ by M4Consulting Team</p>
             </div>
         </div>
-        
-        <div class="footer-bottom">
-            <p>&copy; 2024 M4Consulting. All rights reserved. | Designed with ❤️ by M4Consulting Team</p>
-        </div>
-    </div>
-</footer>
+    </footer>
 
-     <script src="js/wow.min.js"></script>
-              <script>
-              new WOW().init();
-              </script>
-	
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
 </html>

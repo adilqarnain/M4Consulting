@@ -1,53 +1,54 @@
 
-		.btn-tw {
-			color: #fff;
-			background-color: #55acee;
-		}
-		
-		.btn-tw:hover {
-			background-color: #59b5fa;
-		}
-		
-		#signup-btn {
-			background-color: #d34747;
-			border: 0;
-			border-radius: 0;
-			height: 2.5em;
-		}
-		
-		.social-buttons {
-			margin-right: 5px;
-		}
-		
-		@media(max-width: 768px) {
-			#login-dp {
-				background-color: inherit;
-				color: #fff;
-			}
-		}
-		
-		#login-dp .bottom {
-			background-color: inherit;
-			border-top: 0 none;
-		}
+        .btn-tw {
+            color: #fff;
+            background-color: #55acee;
+        }
+        
+        .btn-tw:hover {
+            background-color: #59b5fa;
+        }
+        
+        #signup-btn {
+            background-color: #d34747;
+            border: 0;
+            border-radius: 0;
+            height: 2.5em;
+        }
+        
+        .social-buttons {
+            margin-right: 5px;
+        }
+        
+        @media(max-width: 768px) {
+            #login-dp {
+                background-color: inherit;
+                color: #fff;
+            }
+        }
+        
+        #login-dp .bottom {
+            background-color: inherit;
+            border-top: 0 none;
+        }
 
 .header {
-	background-image:  url(../image/image1.jpg);
-	background-size: cover;
-	background-position: center;
+    background-image:  url(../image/image1.jpg);
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-	height: 100dvh; /* Full viewport height for banner only */
-	min-height: 500px; /* Minimum height to ensure image shows properly */
-	width: 100%;
-	position: relative;
+    height: 100dvh; /* Full viewport height for banner only */
+    min-height: 500px; /* Minimum height to ensure image shows properly */
+    width: 100%;
+    position: relative;
+    margin-top: 40px;
 }
 
 
 /* Services section - remove background */
 #services {
-	background: none;
-	background-color: #ffff; /* Light background for services */
-	padding: 60px 0;
+    background: none;
+    background-color: #ffff; /* Light background for services */
+    padding: 60px 0;
     text-align: center;
 }
 .services i{
@@ -72,31 +73,31 @@
 /* Alternative: If you want to separate banner from services completely */
 
 .header h1{
-	color: black; /* Changed to white */
-	text-align: center;
-	font-size: clamp(1.8rem, 10vw, 5rem);
+    color: black; /* Changed to white */
+    text-align: center;
+    font-size: clamp(1.8rem, 10vw, 5rem);
     margin:0;
     padding: 75px;
     line-height: 1.2;
-	
+    
 }
 .header h3{
-	text-align: center;
-	color: black;
-	margin: 0px 30px 20px 30px;
+    text-align: center;
+    color: black;
+    margin: 0px 30px 20px 30px;
    font-size: clamp(16px, 4vw, 24px);
     padding: 0px 40px 40px 40px;
 }
 .header span{
-	font-size: 20px;
-	position: relative;
-	top: -10px;
+    font-size: 20px;
+    position: relative;
+    top: -10px;
 }
 .flex-container {
-	display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-	gap: 10px;
+    gap: 10px;
     margin-top: 30px;
     padding: 0 20px;
     width: 100%;
@@ -347,98 +348,7 @@
     }
 }
 
-/* Sales section css starts */
-.sales {
-    padding: 150px 50px 60px 80px;
-    min-height: 600px;
-    margin-top: 10px;
-    color: #fff;
-    background-color: #222220;
-}
 
-.sales .container {
-    display: flex;
-    align-items: flex-start;
-    gap: 50px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.sales #left-side {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-}
-
-.sales #left-side img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    min-height: 300px;
-    object-fit: cover;
-    border-radius: 8px;
-}
-
-.sales #right-side {
-    flex: 1;
-    padding-top: 0;
-    margin-top: -100px;
-}
-
-.sales #right-side h1 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 48px;
-    font-weight: 700;
-    margin-bottom: 30px;
-    margin-top: 0;
-    line-height: 1.2;
-}
-
-.sales #right-side p {
-    font-size: 18px;
-    text-align: justify;
-    line-height: 1.7;
-    margin-bottom: 20px;
-    opacity: 0.9;
-}
-
-/* Mobile responsive styles */
-@media (max-width: 768px) {
-    .sales {
-        padding: 50px 30px;
-        min-height: auto;
-        margin-top: 50px;
-    }
-    
-    .sales .container {
-        flex-direction: column;
-        text-align: center;
-        gap: 30px;
-    }
-    
-    .sales #left-side {
-        order: 2;
-    }
-    
-    .sales #right-side {
-        order: 1;
-    }
-    
-    .sales #left-side img {
-        max-width: 100%;
-        min-height: 200px;
-    }
-    
-    .sales #right-side h1 {
-        font-size: 36px;
-        margin-bottom: 20px;
-    }
-    
-    .sales #right-side p {
-        font-size: 16px;
-        text-align: left;
-    }
-}
 
 
 /* Pricing Section CSS */
@@ -478,11 +388,11 @@
             transform: translateY(-5px);
         }
         
-        .packages h4 {
-            color: #666;
-            margin-bottom: -80px;
-            font-weight: bold;
-        }
+       .packages h4 {
+    color: #666;
+    margin-bottom: 10px;  /* Changed from -80px to positive value */
+    font-weight: bold;
+}
         
         .packages h1 {
             color: #28a745;
