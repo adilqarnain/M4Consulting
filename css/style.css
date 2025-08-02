@@ -32,17 +32,15 @@
 		}
 
 .header {
-	background-image: linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0,0.0)), url(../image/image1.jpg);
+	background-image:  url(../image/image1.jpg);
 	background-size: cover;
 	background-position: center;
+    background-repeat: no-repeat;
 	height: 100vh; /* Full viewport height for banner only */
 	min-height: 500px; /* Minimum height to ensure image shows properly */
 	width: 100%;
-	background-repeat: no-repeat;
 	position: relative;
 }
-
-
 
 
 /* Services section - remove background */
@@ -72,27 +70,22 @@
 
 
 /* Alternative: If you want to separate banner from services completely */
-.banner-section {
-	background-image: linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0,0.0)), url(../image/image1.jpg);
-	background-size: cover;
-	background-position: center;
-	height: 100vh;
-	min-height: 500px;
-	width: 100%;
-	background-repeat: no-repeat;
-	position: relative;
-}
+
 .header h1{
 	color: white; /* Changed to white */
 	text-align: center;
 	font-size: 70px;
-	margin-top: 200px;
-	padding-top: 100px; /* Added padding instead of just margin */
+    margin:0;
+    padding: 100px;
+    line-height: 1.2;
+	
 }
 .header h3{
 	text-align: center;
 	color: #fff;
-	margin-left: 15px;
+	margin: 0px 30px 20px 30px;
+    font-size: 24px;
+    padding: 0px 40px 40px 40px;
 }
 .header span{
 	font-size: 20px;
@@ -100,27 +93,49 @@
 	top: -10px;
 }
 .flex-container {
-	display: flex !important;
-	border: 1px solid transparent !important; /* Fixed spacing */
-	height: 100px;
-	justify-content: center;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	gap: 10px;
+    margin-top: 30px;
+    padding: 0 20px;
+    width: 100%;
+    max-width: 500px;
 }
-.btn-grp{
-	text-align: center;
-	justify-content: center;
-	align-self: center;
+.btn-grp {
+    display: flex;
+    justify-content: center; /* Centers buttons inside the container */
+    gap: 10px;
+    width: 50%;
+    margin: 0 auto; /* Centers the container itself */
 }
-.flex-1{
-	margin-right: 5px;
-	border-radius: 0;
-	border: 0;
-	background-color: #d34747;
+.flex-1, .flex-2 {
+    flex: 1;
+    border: 0;
+    border-radius: 0;
+    padding: 15px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
-.flex-2{
-	margin-left: 5px;
-	border: 0;
-	border-radius: 0;
-	background-color: #36a73a;
+
+.flex-1 {
+    background-color: #d34747;
+    color: white;
+}
+
+.flex-1:hover {
+    background-color: #b83939;
+}
+
+.flex-2 {
+    background-color: #36a73a;
+    color: white;
+}
+
+.flex-2:hover {
+    background-color: #2d8f31;
 }
 
 
