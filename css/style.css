@@ -73,7 +73,7 @@
 /* Alternative: If you want to separate banner from services completely */
 
 .header h1{
-    color: black; /* Changed to white */
+    color: White; /* Changed to white */
     text-align: center;
     font-size: clamp(1.8rem, 10vw, 5rem);
     margin:0;
